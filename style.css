@@ -1,0 +1,116 @@
+.hero{
+    background-color: #F5ADBD;
+    font-family:'Roboto Mono', monospace;
+    font-size: larger;
+    height: 770px;
+    text-align: center;
+    align-self: center;
+    margin: 0px auto auto auto ;
+    padding: 10px;
+    color: #FF549E;
+}
+.hero div h1{
+    padding-top: 190px;
+}
+.hero div h3{
+    font-family: 'Nunito sans', sans-serif;
+}
+.hero .catcoding{
+    margin: auto;
+    padding-top: 50px;
+}
+
+.bio > div  > img{
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+}
+.bio > div > h2{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    color: #FF549E;
+}
+.bio > div > p{
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: justify;
+    padding: 20px 200px 100px 200px;
+}
+@media screen and (max-width: 700px){
+    .bio div p {
+        padding: 20px 50px 10px 50px;
+    }
+}
+.dots{
+    text-align: center;
+    margin-bottom: 150px;
+    letter-spacing: 30px;
+}
+
+.skills{
+    font-family: 'Roboto Mono', monospace;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    margin: 0px 50px 0px 50px;
+}
+@media screen and (max-width: 800px){
+    .skills{
+        display: block;
+    }
+}
+.skills div img{
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+}
+.skills div h4{
+    color: #FF549E;
+    text-align: left;
+}
+.skills div p{
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: justify;
+}
+.contact{
+    background-color: #F5ADBD;
+    padding: 100px 50px 100px 50px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+}
+.contact div h2{
+    color: #FF549E;
+    font-family: 'Roboto Mono', monospace;
+}
+.contact div p{
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: justify;
+}
+.contact div ul{
+    font-family:'Nunito Sans', sans-serif;
+    text-align: left;
+    list-style: none;
+    padding-top: 50px;
+}
+@media screen and (max-width: 700px){
+    .contact{
+        display: block;
+    }
+}
+.button{
+    font-family: 'Roboto Mono', monospace;
+    font-size: medium;
+    color: #FF549E;
+    border-color: transparent;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1px 5px 1px 5px;
+}
+.button:hover{
+    background-color: rgb(188, 19, 109);
+}
